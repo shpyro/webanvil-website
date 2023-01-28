@@ -1,0 +1,28 @@
+body, * {
+    border:1px solid rgb(0, 204, 255);
+}
+
+#ultimate-wrapper {
+display:flex;
+flex-direction: column;
+}
+#top-bar-wrapper {
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+#top-bar {
+display: flex;  
+flex-direction: row;  
+justify-content: space-between;
+max-width: 1000px;
+width:100%;
+}
+
+#top-bar-left {
+display: flex;
+}
+#top-bar-right ul {
+display:flex;
+
+}
