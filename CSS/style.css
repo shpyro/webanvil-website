@@ -65,12 +65,12 @@ width: 220px;
     display: flex;
     width:100%;
     justify-content: center;
-    height:800px;
-    background-image: url("../IMG/background-laptop.jpg");
+    height:500px;
+    /* background-image: url("../IMG/background-code.jpg"); */
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #1e1e1e;
     /*background: rgb(0,0,0);
     background-image: /*url("../IMG/watermark-bg.png"), linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(42,42,42,1) 35%, rgba(28,28,28,1) 100%);
 */}
@@ -81,13 +81,16 @@ width: 220px;
     max-width: 1200px;
     align-items: center;
 }
+#header-left-container img {
+margin-top: 32px;
+}
 .header-title {
     margin: 10px;
-    font-size: 72px;
+    font-size: 60px;
     color: white;
     font-weight:700;
     text-shadow: 2px 2px 5px #000000;
-}
+    }
 .spacer100 {
     margin-left: 100px;
 }
