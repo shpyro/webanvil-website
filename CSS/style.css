@@ -46,7 +46,7 @@ width: 250px;
 #top-bar-menu ul  {
     display: flex;
     gap: 50px;
-    margin-top:-5px;
+    margin-top: 10px;
 }
 .menu-item a {
     font-size: 15pt;
@@ -56,7 +56,7 @@ width: 250px;
     color:black;
 }
 .menu-active {
-    border-bottom: 4px solid orange;
+    border-bottom: 4px solid #fc7700;
 }
 /*HEADER*/
 #header-wrapper {
