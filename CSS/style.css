@@ -80,7 +80,7 @@ width: 200px;
     max-width: 1200px;
     align-items: center;
     gap: 20px;
-    height: 500px;
+    min-height: 500px;
 
 }
 #header-left-container {
@@ -91,8 +91,11 @@ width: 200px;
     margin: 0px;
     padding: 0px;
     display: block;
-    border-radius: 40px;
+    border-radius: 20px;
     height: 430px;
+}
+#header-right-container {
+
 }
 .header-title {
     margin: 10px;
